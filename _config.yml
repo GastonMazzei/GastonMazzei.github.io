@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   was deemed worth of sharing. e.g. his summaries on hot and/or
   difficult topics such as Philosophy of Sciences or Convolutional
   Neural Networks.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "GastonMazzei.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gastonmazzei4
 github_username:  GastonMazzei
@@ -28,10 +28,10 @@ github_username:  GastonMazzei
 # Build settings
 markdown: kramdown
 remote_theme: chrisrhymes/bulma-clean-theme
-theme: bulma-clean-theme
+#theme: bulma-clean-theme
 plugins:
   - jekyll-feed
-
+  - github-pages
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
