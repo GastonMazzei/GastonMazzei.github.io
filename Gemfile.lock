@@ -264,6 +264,7 @@ PLATFORMS
 DEPENDENCIES
   bulma-clean-theme (= 0.10)
   github-pages
+  kramdown (>= 2.3.0)
 
 BUNDLED WITH
    2.1.4
