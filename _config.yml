@@ -28,7 +28,7 @@ github_username:  GastonMazzei
 # Build settings
 markdown: kramdown
 remote_theme: chrisrhymes/bulma-clean-theme
-#theme: bulma-clean-theme
+theme: bulma-clean-theme
 plugins:
   - jekyll-feed
   - github-pages
