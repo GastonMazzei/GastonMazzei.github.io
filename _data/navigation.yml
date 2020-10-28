@@ -1,7 +1,40 @@
-- name: Page 1
-  link: /page-1/
-- name: Blog
-  link: /blog/
-  dropdown: 
-    - name: Page 2
-      link: /page-2/
+nav:
+  - title: Me
+    url: "https://github.com/GastonMazzei"
+  - title: Philosophy
+    url: "blog/philosophy"
+  - title: Music
+    url: "blog/music"
+    subnav: 
+      - title: 'Humans vs AI - a musical experiment'
+        url: "https://medium.com/@gastonmazzei95/humans-vs-ai-an-experiment-on-classical-music-recognition-in-2-steps-ae10961e12b6"
+      - title: "Tracking Orchestra - CV maps movement to music"
+        url: "https://www.youtube.com/watch?v=05nctakx3qI"
+      - title: "Romantic Short Films (es)"
+        url: "https://www.youtube.com/playlist?list=PLP7aDKJlAREFHyv1XICKM5pFJlE2LdDle"
+      - title: "Instrumental music (modern)"
+        url: "https://soundcloud.com/m4zze1"
+      - title: "Instrumental music (rock-guitar & classical)"
+        url: "https://soundcloud.com/gaston-mazzei"
+  - title: Neural Networks
+    url: blog/NN
+    subnav: 
+      - title: "FF"
+        url: A2
+      - title: "CNN"
+        url: B2
+      - title: "Theory"
+        url: C2
+  - title: Security & Networks
+    url:
+    subnav:
+      - title: ""
+        url:
+  - title: 
+    url:
+    subnav:
+      - title: ""
+        url:
+
+  - title: Contact
+    url: https://github.com/GastonMazzei
