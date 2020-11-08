@@ -1,0 +1,31 @@
+{% assign texts = include.texts | split: ", " %}
+{% assign images = include.images | split: ", " %}
+{% assign names = include.names | split: ", " %}
+{% assign optionalsubnames = include.optionalsubnames | split: ", " %}
+
+<div class="box">
+{% for i in (0..include.total) %}
+  <article class="media">
+    <div class="media-left">
+        <figure class="image is-64x64">
+          <img src="assets/{{ images[i] }}.png" alt="Image">
+        </figure>
+        </div>
+        <div class="media-content">
+        <div class="content">
+        <p>
+          <strong>{{ names[i] }}</strong>
+           <i class="is-size-7">{{ optionalsubnames[i] }}</i>
+          <br>
+           {{ texts[i] }}
+        </p>
+        </div>
+        <nav class="level is-mobile">
+        <div class="level-left">
+        </div>
+      </nav>
+    </div>
+  </article>
+{% endfor %}
+</div>
+

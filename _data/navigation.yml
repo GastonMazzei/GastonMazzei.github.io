@@ -1,9 +1,36 @@
 nav:
   - title: Me
     url: "https://github.com/GastonMazzei"
-  - title: Philosophy
-    url: "blog/philosophy"
-  - title: Music
+  - title: Machine Learning
+    url: blog/NN
+    subnav: 
+      - title: "FeedForwards"
+        url: A2
+      - title: "Convolutionals"
+        url: B2
+      - title: "Theory"
+        url: C2
+  - title: Security & Networks
+    url:
+    subnav:
+      - title: "the Azure perspective"
+        url:
+      - title: "the AWS perspective"
+        url:
+      - title: "the Google perspective"
+        url:
+      - title: "the Cisco perspective"
+        url:
+      - title: "Security & Networks - a general overview"
+        url:
+  - title: Android Development
+    url: .
+    subnav:
+      - title: "project1"
+        url:
+      - title: "project2"
+        url:
+  - title: Music-related
     url: "blog/music"
     subnav: 
       - title: 'Humans vs AI - a musical experiment'
@@ -16,25 +43,12 @@ nav:
         url: "https://soundcloud.com/m4zze1"
       - title: "Instrumental music (rock-guitar & classical)"
         url: "https://soundcloud.com/gaston-mazzei"
-  - title: Neural Networks
-    url: blog/NN
-    subnav: 
-      - title: "FF"
-        url: A2
-      - title: "CNN"
-        url: B2
-      - title: "Theory"
-        url: C2
-  - title: Security & Networks
-    url:
+  - title: Philosophy
+    url: pend
     subnav:
-      - title: ""
+      - title: "Ethical code"
         url:
-  - title: 
-    url:
-    subnav:
-      - title: ""
-        url:
-
+      - title: "Philosophy of Science"
+        url: "blog/philosophy"
   - title: Contact
     url: https://github.com/GastonMazzei

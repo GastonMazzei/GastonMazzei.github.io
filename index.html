@@ -2,4 +2,258 @@
 layout: default
 title: Gaston Mazzei's site
 ---
-<h1>{{ "Welcome!" | downcase }}</h1>
+<!--<h1>{{ "Welcome!" | downcase }}</h1>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Mazzei's site </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/css/bulma-extensions.min.css  ">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/js/bulma-extensions.min.js  "></script>
+
+</head>-->
+<script>
+function show(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
+</script>
+
+ <div class="tile is-ancestor has-text-centered">
+
+  <div class="tile is-vertical">
+
+    <div class="tile is-parent is-horizontal">
+      <article class="tile is-child notification is-dark is-outlined">
+        <a onclick="show('id4')" class="button is-light is-fullwidth">
+          Academics
+        </a>
+
+
+       <div id="id4" style="display: none">
+        {% include moreinfo.html 
+           images="icas, poster, uba, ielts, maci" 
+           texts="<a href='http://www.icas.unsam.edu.ar/'>ICAS</a> is the Institute Center for Advanced Studies, Presented a virtual poster at the <a href='http://giambiagi2020.df.uba.ar/'>22nd Giambiagi Winter School:</a> Artificial Intelligence and Deep Learning in Physics, <a href ='https://en.wikipedia.org/wiki/University_of_Buenos_Aires
+'>UBA</a> is a 200-year-old university that ranks 66 in the QS world ranking 2021, UKVI Scheduled for mid-Dec. 2020, Numerical Simulations of the Black Scholes PDE with non-differentiable transaction costs" 
+           names="Applied AI internship, Poster session participant, MSc Physics, IELTS certified, Best Undergraduate Research Award" 
+           optionalsubnames=" feb 2020 - dec 2020 , nov 2020 , 2015 - 2020 , dec 2020, may 2017 "
+           total=4  %}
+       </div> 
+      </article>
+    </div>
+
+
+
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-dark is-outlined">
+        <a onclick="show('id1')" class="button is-grey-light is-fullwidth">
+        Applied Artificial Intelligence
+        </a>
+       <div id="id1" style="display: none">
+        {% include moreinfo.html 
+           images="tictactoe, quantum, exoplanets, lie, ising, complexdynamics, higgs, circuits, musicai" 
+           texts="<a href='https://github.com/GastonMazzei/AIFriendly-tictactoe'>Tic Tac Toe</a>: the optimum strategy was learnt by a two-layer fully-connected neural network, <a href='https://github.com/GastonMazzei/AIFriendly-quantum-tunneling'>Quantum Tunneling</a>: the transmission coefficient is fitted by a shallow fully-connected neural network that learns from binary observations identified with the collapse of the quantum wave-function, <a href='https://github.com/GastonMazzei/AIFriendly-exoplanets'>Exoplanets</a>: Kepler's third law is learnt by a shallow fully-connected neural network and thus the orbital period can be estimated from the radius and the solar mass, <a href='https://github.com/GastonMazzei/AIFriendly-group-theory'>Group Theory</a>: detection of Lie algebras with a total number of different irreductible representations in a product descomposition that exceed a threshold, <a href='https://github.com/GastonMazzei/AIFriendly-ising'>The Ising Model with a magnetic field</a>: classification of parameters that exceed a given threshold for the Energy and the Magnetizaion, <a href='https://github.com/GastonMazzei/AIFriendly-complex-dynamics'>Quadratic two-dimensional homogeneous ODEs</a>:  detection of unstable equilibria, <a href='https://github.com/GastonMazzei/AIFriendly-LHC'>Detection of the Higgs Boson in LHC data</a>: the Higgs Boson is detected at a concentration 1% in LHC collisions in format LHCO by a shallow fully-connected neural network, <a href='https://github.com/GastonMazzei/AIFriendly-circuits'>Circuits' max power</a>: detection of pasive-components' values that lead to currents above a certain threshold for diode-perturbed common circuits, <a href='https://github.com/GastonMazzei/music-ai-experiment'>A Musical Experiment</a>: 200 humans were surveyed to measure the average human accuracy at recognizing classical music authors in between 8 options from short sound samples.  Different AI-based-classifiers were measured against that benchmark and <a href='https://medium.com/@gastonmazzei95/humans-vs-ai-an-experiment-on-classical-music-recognition-in-2-steps-ae10961e12b6'>the conclusion</a> was that a Random Forests Ensemble model performed with an average 3x accuracy than of humans." 
+           names="Tic Tac Toe, Quantum Tunneling, Exoplanets, Group Theory, The Ising Model, Nonlinear Equations, Higgs Boson, Electrical Circuits, AI vs Humans" 
+           optionalsubnames=" FC Neural Network, FC Neural Network, FC Neural Network, FC Neural Network, FC Neural Network, FC Neural Network,  FC Neural Network, FC Neural Network, Random Forests Classifier"
+           total=8  %}
+       </div> 
+      </article>
+    </div>
+
+
+
+
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-dark is-outlined">
+        <a onclick="show('id2')" class="button is-light is-fullwidth">
+        Fullstack Development
+        </a>
+       <div id="id2" style="display: none">
+        {% include moreinfo.html 
+           images="covidargdeploy, aifriendlydeploy, githubpagedeploy" 
+           texts="<a href='https://github.com/GastonMazzei/covidarg-fake-news'>Open Source</a> and dynamic website built with Flask and hosted on Heroku that expands on the statistical implications of the Argentinian's <a href='https://twitter.com/redouad/status/1318575061415100418'>corrupted coronavirus database</a> from a bayesian perspective  , Dynamic website built with Nginx and Jenkins that makes publicly-available a neural network as per the state-sponsored transfer-learning mandate of ICAS to which I contributed during the Applied AI Internship, The current site is a <a href='https://github.com/GastonMazzei/GastonMazzei.github.io'>static open-source website</a> hosted by GitHub and built with Ruby's Jekyll using Bulma" 
+           names="<a href='https://covidarg-fake-news.herokuapp.com/'>Covid Arg Fake News</a>, <a href='http://ai-friendly.com/'>AI-Friendly</a>,  <a href='https://gastonmazzei.github.io/'>My Personal Page</a>" 
+           optionalsubnames="bayesian interpretation of covid data, artificial intelligence made friendly, the page you are looking at"
+           total=2  %}
+       </div> 
+      </article>
+    </div>
+
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-dark is-outlined">
+        <a onclick="show('id3')" class="button is-light is-fullwidth">
+        Software Development
+        </a>
+       <div id="id3" style="display: none">
+        {% include moreinfo.html 
+           images="docker, js, telegrambot, tracking" 
+           texts="<a href='https://github.com/GastonMazzei/peat-accelerator'>Peat</a> constrains Python scripts' local CPU-usage via Dockerization; it's ideal for intensive background processes , <a href='https://github.com/GastonMazzei/random-google-form'>JavaScript Architecture</a> for GoogleScripts that allows to downsize Google-Form surveys by randomizing the shown questions and thus allows for simpler forms with more total questions, <a href='https://github.com/GastonMazzei/telegram-chatbot-georecommender'>Python Script</a> for a Telegram Chatbot that indicates the nearest market based on the location, <a href='https://github.com/GastonMazzei/tracking-orchestra'>Python Script</a> that converts the movement of an object to music using OpenCV's non-AI-based multi-tracking capabilities" 
+           names="Peat, Google Form Randomizer, Telegram Geo-Recommender Bot, Tracking Orchestra" 
+           optionalsubnames="CPU-constrainer, decrease bounce & increase info, nearest market, converts movement to music"
+           total=3  %}
+       </div> 
+      </article>
+    </div>
+
+
+  </div>
+
+  <div class="tile is-parent">
+
+    <article class="tile is-child notification is-link">
+ 
+<h3 class="title is-3">About me</h3>
+<div class="box">
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-64x64">
+        <img src="assets/me.png" alt="Image">
+      </figure>
+      <nav class="level is-mobile">
+        <div class="level-left">
+            <span class="icon is-small">
+              <a href="https://github.com/GastonMazzei"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+            </span>
+        </div>
+        <div class="level-center">
+            <span class="icon is-small">
+              <a href="https://www.instagram.com/gasty.mazzei/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            </span>
+        </div>
+
+        <div class="level-right">
+            <span class="icon icon is-small">
+              <a href="https://www.linkedin.com/in/gaston-mazzei-935795184/"><i class="fab fa-linkedin is-large" aria-hidden="true"></i></a>
+            </span>
+        </div>
+      </nav>
+    </div>
+
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong>Gaston Mazzei</strong> :artificial_satellite: <small>25 yro MSc</small><br><small>gastonmazzei95@gmail.com</small> 
+          <br>
+          Hi! Press any category at the left to show specific info.<br>Thank you for your time!
+        </p>
+      </div>
+    </div>
+  </article>
+</div>
+<h3 class="title is-3">More Info</h3>
+
+<div class="box">
+  <article class="media">
+
+    <div class="media-content">
+      <div class="content">
+        <p class="is-size-6"><!--
+<b>Sharing my global perspective:</b><br>
+Humbleness is a key ingredient in modern times where specializations are aplenty<a style="text-decoration: none;"href="https://arxiv.org/abs/1909.06110" class="is-size-7"><sup>[1]</sup></a>:<br>
+<br>for example the "bigness" of big data is on the rise <a style="text-decoration: none;"href="https://arxiv.org/abs/2005.06964" class="is-size-7"><sup>[2]</sup></a> and 5G has something to do with it, and for example the so-called "fundamental theories" are the center of attention of a huge community <a style="text-decoration: none;"href="https://arxiv.org/abs/2003.09084" class="is-size-7"><sup>[3]</sup></a>. The bottom line is that if good individuals can make good things, then a team of good individuals can make great things. As an individual, while learning the task has been finding out which conditions interact constructively with my own subjectivity, which is commonly called inside the specialization paradigm "a favourite topic". As a conclusion, I will state my strong preference in what follows.<br>-->
+<b>My views on research</b><br>
+<i class="is-size-7">Learning from others can be a lifelong process. If you include the recombination of old ideas with mutations you have what in Science is called "Research". Both are things I don't want to ever give up. My current favourite topic is "unsupervised learning".</i><br> 
+<b>Why is pure research is out of the table</b><br>
+<i class="is-size-7">The world is full of un-optimized processes and I find the transfer of technology both personally satisfying and ethically mandatory.</i>
+        </p>
+      </div>
+    </div>
+
+
+<!--
+<a style="text-decoration: none;"href="" class="is-size-7"><sup>[n]</sup></a>
+<a style="text-decoration: none;"href="" class="is-size-7"><sup>[n]</sup></a>
+-->
+  <article class="media-right is-vertical">
+
+    <div class="media-right">
+      <figure class="image is-128x128">
+        <img src="assets/me2.png" alt="Image">
+      </figure>
+    </div>
+
+
+    <div class="media-right">
+      <figure class="image is-128x128">
+        <img src="assets/me3.png" alt="Image">
+      </figure>
+    </div>
+  </article>
+
+
+
+  </article>
+</div>
+
+    </article>
+  </div>
+<!--
+</div>
+  <div class="tile is-parent is-horizontal">
+    <article class="tile is-child notification is-dark">
+      Peat - CPU constrainer
+    </article>
+    <article class="tile is-child notification is-clear">
+      Wifi-measuring Software
+    </article>
+    <article class="tile is-child notification is-dark">
+      AI-vs-Humans - Experiment on Music Recognition
+    </article>
+    <article class="tile is-child notification is-clear">
+      Fluid mechanics frog
+    </article>
+    <article class="tile is-child notification is-dark">
+      Insects tracking orchestra
+    </article>
+
+  </div>
+
+  <div class="tile is-parent is-horizontal">
+    <article class="tile is-child notification is-clear">
+      Telegram Bot
+    </article>
+    <article class="tile is-child notification is-dark">
+      Marketing by Random Google Form
+    </article>
+    <article class="tile is-child notification is-clear">
+      Self-watering vertical flower-pot
+    </article>
+    <article class="tile is-child notification is-dark">
+      lhco to csv
+    </article>
+    <article class="tile is-child notification is-clear">
+      darkest and lightest finder
+    </article>
+
+  </div>
+
+  <div class="tile is-parent is-horizontal">
+    <article class="tile is-child notification is-dark">
+      Modern instrumental music
+    </article>
+    <article class="tile is-child notification is-clear">
+      Rock & Classical instrumental music
+    </article>
+    <article class="tile is-child notification is-dark">
+      Romantic short films
+    </article>
+    <article class="tile is-child notification is-clear">
+      Reformation day Bach + Halloween special
+    </article>
+    <article class="tile is-child notification is-dark">
+      Unsupervised Learning on Spark with SCALA for a 4 stars hotel
+    </article>
+
+  </div>
+-->
+
+</div>
+
