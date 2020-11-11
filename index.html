@@ -29,6 +29,131 @@ function show(id) {
 
  <div class="tile is-ancestor has-text-centered">
 
+
+
+  <div class="tile is-parent">
+
+    <article class="tile is-child notification is-link">
+ 
+<h3 class="title is-3">About me</h3>
+<div class="box">
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-64x64">
+        <img src="assets/me.png" alt="Image">
+      </figure>
+      <nav class="level is-mobile">
+        <div class="level-left">
+            <span class="icon is-small">
+              <a href="https://github.com/GastonMazzei"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+            </span>
+        </div>
+        <div class="level-center">
+            <span class="icon is-small">
+              <a href="https://www.instagram.com/gasty.mazzei/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            </span>
+        </div>
+
+        <div class="level-right">
+            <span class="icon icon is-small">
+              <a href="https://www.linkedin.com/in/gaston-mazzei-935795184/"><i class="fab fa-linkedin is-large" aria-hidden="true"></i></a>
+            </span>
+        </div>
+      </nav>
+    </div>
+
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong>Gaston Mazzei</strong> :artificial_satellite: <small>25 yro MSc</small><br><small>gastonmazzei95@gmail.com</small> 
+          <br>
+          Hi! You can click any category at the right/bottom for Desktop/Mobile to show specific info, or press "More Info" or "Download Resueme".<br>Thank you for your time!
+        </p>
+      </div>
+    </div>
+  </article>
+</div>
+
+<!--is-fullwidth-->
+<h3 class="title is-3">
+<a class="button is-light" href="assets/gaston-mazzei-resume.pdf">
+Download Resume &nbsp;
+<span class="icon">
+<i class="fas fa-file-download"></i>
+</span>
+</a>
+
+<a class="button is-light" onclick="show('idmore1');show('idmore2');show('idmore3');show('idmore4');show('idmore5')">
+More Info
+</a>
+
+</h3>
+
+
+
+<div class="box" id="idmore1" style="display: none">
+  <article class="media">
+
+    <div class="media-content">
+      <div class="content">
+        <p class="is-size-6"><!--
+<b>Sharing my global perspective:</b><br>
+Humbleness is a key ingredient in modern times where specializations are aplenty<a style="text-decoration: none;"href="https://arxiv.org/abs/1909.06110" class="is-size-7"><sup>[1]</sup></a>:<br>
+<br>for example the "bigness" of big data is on the rise <a style="text-decoration: none;"href="https://arxiv.org/abs/2005.06964" class="is-size-7"><sup>[2]</sup></a> and 5G has something to do with it, and for example the so-called "fundamental theories" are the center of attention of a huge community <a style="text-decoration: none;"href="https://arxiv.org/abs/2003.09084" class="is-size-7"><sup>[3]</sup></a>. The bottom line is that if good individuals can make good things, then a team of good individuals can make great things. As an individual, while learning the task has been finding out which conditions interact constructively with my own subjectivity, which is commonly called inside the specialization paradigm "a favourite topic". As a conclusion, I will state my strong preference in what follows.<br>-->
+<b>I love research</b><br>
+<i class="is-size-7">Learning from others can be a lifelong process. If you combine old ideas with 'some little extra' you have what in Science is called "Research". This is something I will never ever give up.</i><br> 
+<b>What is my favourite topic</b><br>
+<i class="is-size-7">My current favourite topic is 'unsupervised learning', but I like topics of artificial intelligence in general. Nevertheless, I do remind myself periodically to not get carried away by 'the A.I. hype' and to not leave aside the 'old' tools that were historically proven useful: for example common 'dumb' statistics and custom-tailored models that define numerically-solvable differential equations.</i><br>
+<b>Why is pure research out of the table</b><br>
+<i class="is-size-7">The world is full of un-optimized processes and I find the transfer of technology both personally satisfying and ethically mandatory.</i><br>
+<b>Current goal</b><br>
+<i class="is-size-7">The current goal is to find a consolidated professional team to which contribute vigorously while learning the state-of-the-art techniques for problem-solving in general and unsupervised problem-solving in particular. </i>
+        </p>
+      </div>
+    </div>
+
+
+<!--
+<a style="text-decoration: none;"href="" class="is-size-7"><sup>[n]</sup></a>
+<a style="text-decoration: none;"href="" class="is-size-7"><sup>[n]</sup></a>
+-->
+  <article class="media-right is-vertical">
+
+    <div class="media-right">
+      <figure class="image is-128x128">
+        <img src="assets/me2.png" alt="Image">
+      </figure>
+    </div>
+
+
+    <div class="media-right">
+      <figure class="image is-128x128">
+        <img src="assets/me3.png" alt="Image">
+      </figure>
+    </div>
+
+    <div class="media-right">
+      <figure class="image is-128x128">
+        <img src="assets/me4.png" alt="Image">
+      </figure>
+    </div>
+
+    <div class="media-right">
+      <figure class="image is-128x128">
+        <img src="assets/me5.png" alt="Image">
+      </figure>
+    </div>
+  </article>
+
+
+
+  </article>
+</div>
+
+    </article>
+  </div>
+
+
   <div class="tile is-vertical">
 
     <div class="tile is-parent is-horizontal">
@@ -41,7 +166,7 @@ function show(id) {
        <div id="id4" style="display: none">
         {% include moreinfo.html 
            images="icas, poster, uba, ielts, maci" 
-           texts="<a href='http://www.icas.unsam.edu.ar/'>ICAS</a> is the Institute Center for Advanced Studies, Presented a virtual poster at the <a href='http://giambiagi2020.df.uba.ar/'>22nd Giambiagi Winter School:</a> Artificial Intelligence and Deep Learning in Physics, <a href ='https://en.wikipedia.org/wiki/University_of_Buenos_Aires
+           texts="<a href='http://www.icas.unsam.edu.ar/'>ICAS</a> is the Institute Center for Advanced Studies, Presented a virtual poster at the <a href='https://nube.df.uba.ar/index.php/s/TTQHWq5ezpHRDM7'>22nd Giambiagi Winter School:</a> Artificial Intelligence and Deep Learning in Physics, <a href ='https://en.wikipedia.org/wiki/University_of_Buenos_Aires
 '>UBA</a> is a 200-year-old university that ranks 66 in the QS world ranking 2021, UKVI Scheduled for mid-Dec. 2020, Numerical Simulations of the Black Scholes PDE with non-differentiable transaction costs" 
            names="Applied AI internship, Poster session participant, MSc Physics, IELTS certified, Best Undergraduate Research Award" 
            optionalsubnames=" feb 2020 - dec 2020 , nov 2020 , 2015 - 2020 , dec 2020, may 2017 "
@@ -238,114 +363,6 @@ function show(id) {
 
   </div>
 
-  <div class="tile is-parent">
-
-    <article class="tile is-child notification is-link">
- 
-<h3 class="title is-3">About me</h3>
-<div class="box">
-  <article class="media">
-    <div class="media-left">
-      <figure class="image is-64x64">
-        <img src="assets/me.png" alt="Image">
-      </figure>
-      <nav class="level is-mobile">
-        <div class="level-left">
-            <span class="icon is-small">
-              <a href="https://github.com/GastonMazzei"><i class="fab fa-github-square" aria-hidden="true"></i></a>
-            </span>
-        </div>
-        <div class="level-center">
-            <span class="icon is-small">
-              <a href="https://www.instagram.com/gasty.mazzei/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-            </span>
-        </div>
-
-        <div class="level-right">
-            <span class="icon icon is-small">
-              <a href="https://www.linkedin.com/in/gaston-mazzei-935795184/"><i class="fab fa-linkedin is-large" aria-hidden="true"></i></a>
-            </span>
-        </div>
-      </nav>
-    </div>
-
-    <div class="media-content">
-      <div class="content">
-        <p>
-          <strong>Gaston Mazzei</strong> :artificial_satellite: <small>25 yro MSc</small><br><small>gastonmazzei95@gmail.com</small> 
-          <br>
-          Hi! Press any category at the left to show specific info.<br>Thank you for your time!
-        </p>
-      </div>
-    </div>
-  </article>
-</div>
-
-<h3 class="title is-3"><a class="button is-light is-fullwidth" onclick="show('idmore1');show('idmore2');show('idmore3');show('idmore4');show('idmore5')">More Info</a></h3>
-
-
-
-<div class="box" id="idmore1" style="display: none">
-  <article class="media">
-
-    <div class="media-content">
-      <div class="content">
-        <p class="is-size-6"><!--
-<b>Sharing my global perspective:</b><br>
-Humbleness is a key ingredient in modern times where specializations are aplenty<a style="text-decoration: none;"href="https://arxiv.org/abs/1909.06110" class="is-size-7"><sup>[1]</sup></a>:<br>
-<br>for example the "bigness" of big data is on the rise <a style="text-decoration: none;"href="https://arxiv.org/abs/2005.06964" class="is-size-7"><sup>[2]</sup></a> and 5G has something to do with it, and for example the so-called "fundamental theories" are the center of attention of a huge community <a style="text-decoration: none;"href="https://arxiv.org/abs/2003.09084" class="is-size-7"><sup>[3]</sup></a>. The bottom line is that if good individuals can make good things, then a team of good individuals can make great things. As an individual, while learning the task has been finding out which conditions interact constructively with my own subjectivity, which is commonly called inside the specialization paradigm "a favourite topic". As a conclusion, I will state my strong preference in what follows.<br>-->
-<b>I love research</b><br>
-<i class="is-size-7">Learning from others can be a lifelong process. If you combine old ideas with 'some little extra' you have what in Science is called "Research". This is something I will never ever give up.</i><br> 
-<b>What is my favourite topic</b><br>
-<i class="is-size-7">My current favourite topic is 'unsupervised learning', but I like topics of artificial intelligence in general. Nevertheless, I do remind myself periodically to not get carried away by 'the A.I. hype' and to not leave aside the 'old' tools that were historically proven useful: for example common 'dumb' statistics and custom-tailored models that define numerically-solvable differential equations.</i><br>
-<b>Why is pure research out of the table</b><br>
-<i class="is-size-7">The world is full of un-optimized processes and I find the transfer of technology both personally satisfying and ethically mandatory.</i><br>
-<b>Current goal</b><br>
-<i class="is-size-7">The current goal is to find a consolidated professional team to which contribute vigorously while learning the state-of-the-art techniques for problem-solving in general and unsupervised problem-solving in particular. </i>
-        </p>
-      </div>
-    </div>
-
-
-<!--
-<a style="text-decoration: none;"href="" class="is-size-7"><sup>[n]</sup></a>
-<a style="text-decoration: none;"href="" class="is-size-7"><sup>[n]</sup></a>
--->
-  <article class="media-right is-vertical">
-
-    <div class="media-right">
-      <figure class="image is-128x128">
-        <img src="assets/me2.png" alt="Image">
-      </figure>
-    </div>
-
-
-    <div class="media-right">
-      <figure class="image is-128x128">
-        <img src="assets/me3.png" alt="Image">
-      </figure>
-    </div>
-
-    <div class="media-right">
-      <figure class="image is-128x128">
-        <img src="assets/me4.png" alt="Image">
-      </figure>
-    </div>
-
-    <div class="media-right">
-      <figure class="image is-128x128">
-        <img src="assets/me5.png" alt="Image">
-      </figure>
-    </div>
-  </article>
-
-
-
-  </article>
-</div>
-
-    </article>
-  </div>
 <!--
 </div>
   <div class="tile is-parent is-horizontal">
