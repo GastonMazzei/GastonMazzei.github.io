@@ -90,7 +90,7 @@ Download Resume &nbsp;
 
 
 
-<a class="button is-light" onclick="show('idmore1');show('idmore2');show('idmore3');show('idmore4');show('idmore5');show('idmore6')">
+<a class="button is-light" onclick="show('idmore1');show('idmore2');show('idmore3');show('idmore4');show('idmore5')">
 More Info
 </a>
 
@@ -168,19 +168,20 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
     <div class="tile is-parent is-horizontal">
       <article class="tile is-child notification is-dark is-outlined is-vcentered">
         <a onclick="show('id4')" class="button is-light is-fullwidth">
-          Academics & Jobs
+          Academics
         </a>
 
  
 
        <div id="id4" style="display: none">
         {% include moreinfo.html 
-           images="iquallnetworks, icas, uba, ielts, kostenaike" 
-           texts="As a Network Automation Engineer at <a href='https://iquall.net/'>Iquall Networks</a> my role is to design implement and test algorithms using Python in order to provide automated solutions to international telecommunication companies inside propietary software, <a href='http://www.icas.unsam.edu.ar/'>ICAS</a> is the Institute Center for Advanced Studies. Under the research internship <a href='http://ai-friendly.com/'>AI-Friendly</a> was built (Masters' thesis) , <a href ='https://en.wikipedia.org/wiki/University_of_Buenos_Aires
-'>UBA</a> is a 200-year-old university that ranks 66 in the QS world ranking 2021 (<a href='assets/analytic.pdf'>grade: 8.5/10</a>; the thesis defense is available on <a href='https://youtu.be/KmPtevZZpGM'>YouTube</a>) , IELTS UKVI (score: 8 - <a href='assets/verification-code.png'>verification code</a>), Part Time Business Intelligence (or Data Analytics) consultant (freelance) for a four-star hotel in the Argentinian southern Patagonia: basic occupation trends and carbon footprint were computed on a monthly basis" 
-           names="Network Automation Engineer, Research Internship, M.Sc Physics, IELTS certified, Part Time Business Intelligence" 
-           optionalsubnames="jan 2021 - current , feb 2020 - dec 2020 , jan-2015 / march-2021 , dec 2020, nov-2018 / nov-2019"
-           total=4  %}
+           images="maci, icas, poster, uba, ielts, maci" 
+           texts="ASAMACI is the Argentinian Society of Applied Mathematics (accepted and will be published in May 2021 - <a href='assets/delta-hedging-with-transaction-costs-dynamic-multi-scale-strategy-using-neural-nets.pdf'>file</a>) , <a href='http://www.icas.unsam.edu.ar/'>ICAS</a> is the Institute Center for Advanced Studies. Under the research internship <a href='http://ai-friendly.com/'>AI-Friendly</a> was built (Masters' thesis) , Presented a virtual poster at the <a href='http://giambiagi2020.df.uba.ar/'>22nd Giambiagi Winter School:</a> Artificial Intelligence and Deep Learning in Physics <a href='https://drive.google.com/drive/folders/1Hn_5bKcnsOhzkjm6_oJ61Lq07aDR2-DK?usp=sharing'>(poster & presentation)</a> , <a href ='https://en.wikipedia.org/wiki/University_of_Buenos_Aires
+'>UBA</a> is a 200-year-old university that ranks 66 in the QS world ranking 2021 (<a href='assets/analytic.pdf'>grade: 8.5/10</a>) , IELTS UKVI (score: 8 - <a href='assets/verification-code.png'>verification code</a>)  , ASAMACI is the Argentinian Society of Applied Mathematics; the paper consisted of numerical simulations of the Black Scholes PDE with non-differentiable transaction costs (<a href='https://drive.google.com/file/d/1cFb5JKY0MOOPryeti6e3E95OrbDhFxhO/view'>page 588</a>)" 
+           names="Publication - 
+Delta Hedging with Transaction Costs: Dynamic Multi-Scale Strategy using Neural Nets, Research Internship, Poster session participant, M.Sc Physics, IELTS certified, Publication - Option Pricing Model with Transaction Costs" 
+           optionalsubnames="may 2021, feb 2020 - dec 2020 , nov 2020 , jan-2015 / march-2021 , dec 2020, may 2017 "
+           total=5  %}
        </div>
  
 <div class="box" id="idmore2" style="display: none">
@@ -188,53 +189,6 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
     <div class="media-right">
       <figure class="image is-64x64">
         <img src="assets/icas.png" alt="Image">
-      </figure>
-    </div>
-
-
-    <div class="media-right">
-      <figure class="image is-64x64">
-        <img src="assets/uba.png" alt="Image">
-      </figure>
-    </div>
-
-    <div class="media-right">
-      <figure class="image is-64x64">
-        <img src="assets/ielts.png" alt="Image">
-      </figure>
-    </div>
-
-  </article>
-</div>
-
-
-      </article>
-    </div>
-
-
-    <div class="tile is-parent is-horizontal">
-      <article class="tile is-child notification is-dark is-outlined is-vcentered">
-        <a onclick="show('id5')" class="button is-light is-fullwidth">
-          Publications & Posters
-        </a>
-
- 
-
-       <div id="id5" style="display: none">
-        {% include moreinfo.html 
-           images="maci, mlcollective-logo, poster, maci" 
-           texts=" ASAMACI is the Argentinian Society of Applied Mathematics (accepted and will be published in May 2021 - <a href='assets/delta-hedging-with-transaction-costs-dynamic-multi-scale-strategy-using-neural-nets.pdf'>file</a>), Presented the <a href='assets/Escher Project-ML Collective.pdf'>Escher Inpaint Project</a> in a <a href='https://mlcollective.org/research-jam-1/'>research jam</a> organized by ML Collective (an independent nonprofit organization that supports open collaboration in machine learning research), Presented a virtual poster about 'AI-Friendly' at the <a href='https://nube.df.uba.ar/index.php/s/DjmE2G8M95rP9qe#pdfviewer'>22nd Giambiagi Winter School:</a> Artificial Intelligence and Deep Learning in Physics,  ASAMACI is the Argentinian Society of Applied Mathematics; the paper consisted of numerical simulations of the Black Scholes PDE with non-differentiable transaction costs (<a href='https://drive.google.com/file/d/1cFb5JKY0MOOPryeti6e3E95OrbDhFxhO/view'>page 569</a>)" 
-           names=" Publication - Delta Hedging with Transaction Costs: Dynamic Multi-Scale Strategy using Neural Nets , Poster session participant , Poster session participant , Publication - Option Pricing Model with Transaction Costs" 
-           optionalsubnames="may 2021, april 2021, nov 2020,   may 2017 "
-           total=3  %}
-       </div>
- 
-
-<div class="box" id="idmore6" style="display: none">
-  <article class="media">
-    <div class="media-right">
-      <figure class="image is-64x64">
-        <img src="assets/mlcollective-logo.png" alt="Image">
       </figure>
     </div>
     <div class="media-right">
@@ -248,7 +202,12 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
         <img src="assets/uba.png" alt="Image">
       </figure>
     </div>
-	
+
+    <div class="media-right">
+      <figure class="image is-64x64">
+        <img src="assets/ielts.png" alt="Image">
+      </figure>
+    </div>
     <div class="media-right">
       <figure class="image is-64x64">
         <img src="assets/maci.png" alt="Image">
@@ -256,6 +215,7 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
     </div>
   </article>
 </div>
+
 
       </article>
     </div>
@@ -265,15 +225,15 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
     <div class="tile is-parent">
       <article class="tile is-child notification is-dark is-outlined">
         <a onclick="show('id1')" class="button is-grey-light is-fullwidth">
-        Machine Learning related
+        Applied Artificial Intelligence
         </a>
        <div id="id1" style="display: none">
         {% include moreinfo.html 
-           images="tictactoe, quantum, exoplanets, lie, ising, complexdynamics, higgs, circuits, musicai, escherprintgallery" 
-           texts="<a href='https://github.com/GastonMazzei/AIFriendly-tictactoe'>Tic Tac Toe</a>: the optimum strategy was learnt by a two-layer fully-connected neural network, <a href='https://github.com/GastonMazzei/AIFriendly-quantum-tunneling'>Quantum Tunneling</a>: the transmission coefficient is fitted by a shallow fully-connected neural network that learns from binary observations identified with the collapse of the quantum wave-function, <a href='https://github.com/GastonMazzei/AIFriendly-exoplanets'>Exoplanets</a>: Kepler's third law is learnt by a shallow fully-connected neural network and thus the orbital period can be estimated from the radius and the solar mass, <a href='https://github.com/GastonMazzei/AIFriendly-group-theory'>Group Theory</a>: detection of Lie algebras with a total number of different irreductible representations in a product descomposition that exceed a threshold, <a href='https://github.com/GastonMazzei/AIFriendly-ising'>The Ising Model with a magnetic field</a>: classification of parameters that exceed a given threshold for the Energy and the Magnetizaion, <a href='https://github.com/GastonMazzei/AIFriendly-complex-dynamics'>Quadratic two-dimensional homogeneous ODEs</a>:  detection of unstable equilibria, <a href='https://github.com/GastonMazzei/AIFriendly-LHC'>Detection of the Higgs Boson in LHC data</a>: the Higgs Boson is detected at a concentration 1% in LHC collisions in format LHCO by a shallow fully-connected neural network, <a href='https://github.com/GastonMazzei/AIFriendly-circuits'>Circuits' max power</a>: detection of pasive-components' values that lead to currents above a certain threshold for diode-perturbed common circuits, <a href='https://github.com/GastonMazzei/music-ai-experiment'>A Musical Experiment</a>: 200 humans were surveyed to measure the average human accuracy at recognizing classical music authors in between 8 options from short sound samples.  Different AI-based-classifiers were measured against that benchmark and <a href='https://medium.com/@gastonmazzei95/humans-vs-ai-an-experiment-on-classical-music-recognition-in-2-steps-ae10961e12b6'>the conclusion</a> was that a Random Forests Ensemble model performed with an average 3x accuracy than of humans., The ongoing <a href='assets/Escher Project-ML Collective.pdf'>Escher Inpaint Project</a> consists of the image inpainting of M.C. Escher's Print Gallery with deep learning techniques along with knowledge of the underlying conformal mapping." 
-           names="Physics simulation: Tic Tac Toe, Physics simulation: Quantum Tunneling, Physics simulation: Exoplanets, Physics simulation: Group Theory, Physics simulation: The Ising Model, Physics simulation: Nonlinear Equations, Physics simulation: Higgs Boson, Physics simulation: Electrical Circuits, AI vs Humans, Escher Inpainting Project" 
-           optionalsubnames=" dense neural net, dense neural net, dense neural net, dense neural net, dense neural net, dense neural net,  dense neural net, dense neural net, random forests classifier, inpainting with deep learning"
-           total=9  %}
+           images="tictactoe, quantum, exoplanets, lie, ising, complexdynamics, higgs, circuits, musicai" 
+           texts="<a href='https://github.com/GastonMazzei/AIFriendly-tictactoe'>Tic Tac Toe</a>: the optimum strategy was learnt by a two-layer fully-connected neural network, <a href='https://github.com/GastonMazzei/AIFriendly-quantum-tunneling'>Quantum Tunneling</a>: the transmission coefficient is fitted by a shallow fully-connected neural network that learns from binary observations identified with the collapse of the quantum wave-function, <a href='https://github.com/GastonMazzei/AIFriendly-exoplanets'>Exoplanets</a>: Kepler's third law is learnt by a shallow fully-connected neural network and thus the orbital period can be estimated from the radius and the solar mass, <a href='https://github.com/GastonMazzei/AIFriendly-group-theory'>Group Theory</a>: detection of Lie algebras with a total number of different irreductible representations in a product descomposition that exceed a threshold, <a href='https://github.com/GastonMazzei/AIFriendly-ising'>The Ising Model with a magnetic field</a>: classification of parameters that exceed a given threshold for the Energy and the Magnetizaion, <a href='https://github.com/GastonMazzei/AIFriendly-complex-dynamics'>Quadratic two-dimensional homogeneous ODEs</a>:  detection of unstable equilibria, <a href='https://github.com/GastonMazzei/AIFriendly-LHC'>Detection of the Higgs Boson in LHC data</a>: the Higgs Boson is detected at a concentration 1% in LHC collisions in format LHCO by a shallow fully-connected neural network, <a href='https://github.com/GastonMazzei/AIFriendly-circuits'>Circuits' max power</a>: detection of pasive-components' values that lead to currents above a certain threshold for diode-perturbed common circuits, <a href='https://github.com/GastonMazzei/music-ai-experiment'>A Musical Experiment</a>: 200 humans were surveyed to measure the average human accuracy at recognizing classical music authors in between 8 options from short sound samples.  Different AI-based-classifiers were measured against that benchmark and <a href='https://medium.com/@gastonmazzei95/humans-vs-ai-an-experiment-on-classical-music-recognition-in-2-steps-ae10961e12b6'>the conclusion</a> was that a Random Forests Ensemble model performed with an average 3x accuracy than of humans." 
+           names="Tic Tac Toe, Quantum Tunneling, Exoplanets, Group Theory, The Ising Model, Nonlinear Equations, Higgs Boson, Electrical Circuits, AI vs Humans" 
+           optionalsubnames=" FC Neural Network, FC Neural Network, FC Neural Network, FC Neural Network, FC Neural Network, FC Neural Network,  FC Neural Network, FC Neural Network, Random Forests Classifier"
+           total=8  %}
        </div> 
 
 <div class="box" id="idmore3" style="display: none">
@@ -398,6 +358,11 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
     <div class="media-right">
       <figure class="image is-64x64">
         <img src="assets/tracking.png" alt="Image">
+      </figure>
+    </div>
+    <div class="media-right">
+      <figure class="image is-64x64">
+        <img src="assets/android.png" alt="Image">
       </figure>
     </div>
   </article>
