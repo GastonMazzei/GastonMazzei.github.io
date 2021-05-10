@@ -90,7 +90,7 @@ Download Resume &nbsp;
 
 
 
-<a class="button is-light" onclick="show('idmore1');show('idmore2');show('idmore3');show('idmore4');show('idmore5');show('idmore6')">
+<a class="button is-light" onclick="show('idmore1');show('idmore2');show('idmore3');show('idmore4');show('idmore5');show('idmore6');show('idmore7')">
 More Info
 </a>
 
@@ -224,22 +224,66 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
     <div class="tile is-parent is-horizontal">
       <article class="tile is-child notification is-dark is-outlined is-vcentered">
         <a onclick="show('id5')" class="button is-light is-fullwidth">
-          Publications & Posters
+          Publications
         </a>
-
- 
-
        <div id="id5" style="display: none">
         {% include moreinfo.html 
-           images="maci, mlcollective-logo, poster, maci" 
-           texts=" ASAMACI is the Argentinian Society of Applied Mathematics (accepted and will be published in May 2021 - <a href='assets/delta-hedging-with-transaction-costs-dynamic-multi-scale-strategy-using-neural-nets.pdf'>file</a>), Presented the <a href='assets/Escher Project-ML Collective.pdf'>Escher Inpaint Project</a> in a <a href='https://mlcollective.org/research-jam-1/'>research jam</a> organized by ML Collective (an independent nonprofit organization that supports open collaboration in machine learning research), Presented a virtual poster about 'AI-Friendly' at the <a href='https://nube.df.uba.ar/index.php/s/DjmE2G8M95rP9qe#pdfviewer'>22nd Giambiagi Winter School:</a> Artificial Intelligence and Deep Learning in Physics,  ASAMACI is the Argentinian Society of Applied Mathematics; the paper consisted of numerical simulations of the Black Scholes PDE with non-differentiable transaction costs (<a href='https://drive.google.com/file/d/1cFb5JKY0MOOPryeti6e3E95OrbDhFxhO/view'>page 569</a>)" 
-           names=" Publication - Delta Hedging with Transaction Costs: Dynamic Multi-Scale Strategy using Neural Nets , Poster session participant , Poster session participant , Publication - Option Pricing Model with Transaction Costs" 
-           optionalsubnames="may 2021, april 2021, nov 2020,   may 2017 "
-           total=3  %}
+           images="maci, maci" 
+           texts="a portfolio strategy is parametrized by hedging at different periods and computing the weights with a convolutional 1D neural network (accepted and will be published in May 2021 in MACI VIII; the journal of the Argentinian Society of Applied Mathematics; <a href='assets/delta-hedging-with-transaction-costs-dynamic-multi-scale-strategy-using-neural-nets.pdf'>paper</a>), Numerical simulations of the Black Scholes PDE with non-differentiable transaction costs and the analytical solution for exponential costs (published  in MACI VI; the journal of the Argentinian Society of Applied Mathematics; <a href='https://drive.google.com/file/d/1cFb5JKY0MOOPryeti6e3E95OrbDhFxhO/view'>paper p.569-573</a>)" 
+           names="Delta Hedging with Transaction Costs: Dynamic Multi-Scale Strategy using Neural Nets , Option Pricing Model with Transaction Costs" 
+           optionalsubnames="may 2021, may 2017 "
+           total=1  %}
        </div>
  
 
 <div class="box" id="idmore6" style="display: none">
+  <article class="media">
+    <div class="media-right">
+      <figure class="image is-64x64">
+        <img src="assets/mlcollective-logo.png" alt="Image">
+      </figure>
+    </div>
+    <div class="media-right">
+      <figure class="image is-64x64">
+        <img src="assets/poster.png" alt="Image">
+      </figure>
+    </div>
+
+    <div class="media-right">
+      <figure class="image is-64x64">
+        <img src="assets/uba.png" alt="Image">
+      </figure>
+    </div>
+	
+    <div class="media-right">
+      <figure class="image is-64x64">
+        <img src="assets/maci.png" alt="Image">
+      </figure>
+    </div>
+  </article>
+</div>
+
+      </article>
+    </div>
+
+
+
+    <div class="tile is-parent is-horizontal">
+      <article class="tile is-child notification is-dark is-outlined is-vcentered">
+        <a onclick="show('id7')" class="button is-light is-fullwidth">
+          Posters
+        </a>
+       <div id="id7" style="display: none">
+        {% include moreinfo.html 
+           images="LXAI-ICLR, maci, mlcollective-logo, poster" 
+           texts="Presented the Escher Inpaint Project as part of 'ML Techniques for Art Reconstruction' in the pitch for research projects applying for mentorship at ICLR Social Virtual Room <a href='https://iclr.cc/virtual/2021/social/4416'>n4416</a> inside LXAI's event <a href='https://www.latinxinai.org/iclr-2021'>LatinX in AI Social at ICLR 2021</a> (<a href='assets/ML-Techniques-for-Art-Reconstruction.pdf'>presentation link</a>; and <a href='https://twitter.com/banazir/status/1390326569986560000?fbclid=IwAR18Kg9yWgHSHr9tUWv2v2ua3875AbiM7YAZegFJp3n5k0Vti5BJL3PLLkQ'>further proof</a>), Presented the recent publication 'Delta Hedging with Transaction Costs: Dynamic Multi-Scale Strategy using Neural Nets' at the MACI VIII virtual sessions (<a href='https://asamaci.org.ar/forummaci2021/topic/delta-hedging-with-transaction-costs-dynamic-multi-scale-strategy-using-neural-nets-mazzei-gaston-bellora-fernando-serur-juan-andres/'>link to presentation</a>), Presented the <a href='assets/Escher Project-ML Collective.pdf'>Escher Inpaint Project</a> in a <a href='https://mlcollective.org/research-jam-1/'>research jam</a> organized by ML Collective (an independent nonprofit organization that supports open collaboration in machine learning research), Presented a virtual poster about <a href='http://AI-Friendly'>ai-friendly.com</a> at the 22nd Giambiagi Winter School (<a href='https://nube.df.uba.ar/index.php/s/DjmE2G8M95rP9qe#pdfviewer'>link to conference presentation</a>)" 
+           names="LXAI Social @ ICLR, MACI VIII , ML Collective Research Jam 1 , 22nd Giambiagi Winter School: Artificial Intelligence and Deep Learning in Physics" 
+           optionalsubnames="may 2021, may 2021, april 2021, nov 2020"
+           total=3  %}
+       </div>
+ 
+
+<div class="box" id="idmore7" style="display: none">
   <article class="media">
     <div class="media-right">
       <figure class="image is-64x64">
