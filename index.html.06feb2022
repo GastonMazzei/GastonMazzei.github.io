@@ -33,19 +33,24 @@ function show(id) {
 
   <div class="tile is-parent">
 
-    <article class="tile is-child notification is-grey-dark">
+    <article class="tile is-child notification is-link">
  
-	    <!--<h3 class="title is-3">About me</h3>-->
+<h3 class="title is-3">About me</h3>
 <div class="box">
   <article class="media">
     <div class="media-left">
-      <figure class="image is-128x128">
-        <img src="assets/me7.png" alt="Image">
+      <figure class="image is-64x64">
+        <img src="assets/me.png" alt="Image">
       </figure>
       <nav class="level is-mobile">
         <div class="level-left">
             <span class="icon is-small">
               <a href="https://github.com/GastonMazzei"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+            </span>
+        </div>
+        <div class="level-center">
+            <span class="icon is-small">
+              <a href="https://www.instagram.com/gasty.mazzei/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
             </span>
         </div>
 
@@ -54,31 +59,15 @@ function show(id) {
               <a href="https://www.linkedin.com/in/gaston-mazzei-935795184/"><i class="fab fa-linkedin is-large" aria-hidden="true"></i></a>
             </span>
         </div>
-        <div class="level-right">
-            <span class="icon icon is-small">
-              <a href="https://scholar.google.com/citations?hl=en&user=l4hmfp8AAAAJ"><i class="fa fa-graduation-cap is-large" aria-hidden="true"></i></a>
-            </span>
-        </div>
-        <div class="level-center">
-            <span class="icon is-small">
-              <a href="https://www.instagram.com/gasty.mazzei/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-            </span>
-        </div>
-        <div class="level-center">
-            <span class="icon is-small">
-              <a href="gastonmazzei95@gmail.com"><i class="fab fa-google" aria-hidden="true"></i></a>
-            </span>
-        </div>
       </nav>
     </div>
 
     <div class="media-content">
       <div class="content">
         <p>
-          <strong>Gaston Mazzei</strong><small> 26, Physicist, Software Developer </small>
-	  <br><br>
-	  <!--I'm Gaston Mazzei. Please press 'Aboout me' or explore specific topics on the right by clicking on them. Thank you for your time!-->
-	  C++ Developer intern at the Augmented Reality Lab at LISN-CNRS, Paris, France.
+          <strong>Gaston Mazzei</strong><small> 26, Physicist, Software Developer </small><br><small>gastonmazzei95@gmail.com</small> 
+          <br>
+          I'm Gaston Mazzei. Please press 'More Info' or explore specific topics on the right by clicking on them. Thank you for your time!
         </p>
       </div>
     </div>
@@ -88,16 +77,39 @@ function show(id) {
 <!--is-fullwidth-->
 <h3 class="title is-3">
 
-<a class="button is-dark" href="assets/Gaston-Mazzei-CV.pdf">
-CV&nbsp;
+<a class="button is-light" href="assets/Gaston-Mazzei-CV.pdf">
+CV (en)&nbsp;
 <span class="icon">
 <i class="fas fa-file-download"></i>
 </span>
 </a>
 
+<!--
+<a class="button is-light" href="assets/Gaston-Mazzei-CV-FULL.pdf">
+CV-extended (en) &nbsp;
+<span class="icon">
+<i class="fas fa-file-download"></i>
+</span>
+</a>
+-->
+
+<!--
+<a class="button is-light" href="assets/Gaston-Mazzei-CV-IT.pdf">
+CV (it) &nbsp;
+<span class="icon">
+<i class="fas fa-file-download"></i>
+</span>
+</a>
+<a class="button is-light" href="assets/Gaston-Mazzei-CV-FR.pdf">
+CV (fr) &nbsp;
+<span class="icon">
+<i class="fas fa-file-download"></i>
+</span>
+</a>
+-->
 
 
-<a class="button is-dark" onclick="show('idmore1');show('idmore2');show('idmore5');show('idmore11');show('idmore6');show('idmore8');show('idmore13');show('idmore9');show('idmore7');show('idmore3');show('idmore18');">
+<a class="button is-light" onclick="show('idmore2');show('idmore5');show('idmore11');show('idmore6');show('idmore8');show('idmore13');show('idmore9');show('idmore7');show('idmore3');show('idmore18');">
 More Info
 </a>
 
@@ -117,15 +129,11 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
 <b>About Myself</b><br>
 <i class="is-size-7"><br>Born in southern South America and very Passionate about Nature, some of its details along with Humankind's mathematical models were formally learnt during a 6-year-long Bsc+Msc Physics degree. During that time several personal and academic projects were accomplished, and a little bit under 3 years of work experience was accumulated.<br><br>With a clear list of favourite topics, taking great pride in being philosophically aligned with the European Union's Ethics, and with a "<a href='https://fr.wikipedia.org/wiki/Plan_Quantique'>Plan Quantique</a>" scholarship to to study High-Performance-Computing and it's link with Quantum Computing via the <a href='https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-quantum-and-distributed-computer-science'>Master in Parallel & Distributed Computing</a> at the <a href='https://www.nature.com/articles/d41586-020-03004-x'>recently created Behemoth</a> the Paris-Saclay University, my current place of residence is France.</i><br> 
 <br><b>Favourite topics</b><br><br>
-<i class="is-size-7">From the field of physics my favourite topics are statistical physics, complex systems, and fluid dynamics, and from Computer Science I find great joy in the fields of High Performance Computing, Optimization, and Machine Learning. Mathematical modelling is fun!</i><br><br>
+<i class="is-size-7">From the field of physics my favourite topics are statistical physics, (quantum) complex systems, and fluid dynamics. In all cases the inclusion of noise and the relationship with topology. In Computer Science, I find great joy in the techniques of High Performance Computing, Optimization, and Machine Learning.</i><br><br>
 <!--<b>I like both the academy and industrial applications</b><br><br>
 <i class="is-size-7">The world is full of un-optimized processes and I find the transfer of technology both personally satisfying and ethically mandatory.</i><br>-->
-<br><b>Openings & Future Projects - Work</b><br><br>
-<i class="is-size-7">As of January 2022 I am an intern C++ Developer at VENISE LISN-CNRS, and in May 2022 when my Quantum Technologies Scholarship finishes I'll be participating as a CFD Engineer intern during 4 months at a lab in Toulouse. As of September 2022 I'm committed to moving to Italy for personal issues, so I'm currently open to proposals to start during that period onwards, preferably on-site in one of the cities close to Rome, e.g. Pisa, Napoles, Rome itself.</i><br><br>
-<br><b>Openings & Future Projects - Research</b><br><br>
-<i class="is-size-7">In general I'm open to participate in numerical simulations of market-related mathematical models, game theory, and their relationship with ML. In particular I have a few ideas about non-monotonous properties of Small World networks that could be verified with numerical simulations: the code is almost ready, sponsorship in terms of server time is required. This line is closely related to noisy fractional QA and their simplified variants, perhaps even with nonplanar metrics.</i><br><br>
 <br><b>Other interests</b><br><br>
-<i class="is-size-7">My personal interests include practising sports such as squash, trekking, and pre-pandemics amateur Olympic-style weightlifting. I'm a quite histrionic individual so I enjoy joking around and playing music. With friends I like spending time watching movies and/or cooking, and I'm deeply passionate about animals. Culturally I enjoy very much both classical music in general and specific composers from the German, French and Italian baroque. My taste for Contemporary Academic Music still needs some nourishing!</i><br>
+<i class="is-size-7">My personal interests include practising sports such as trekking or amateur Olympic-style weightlifting (and maybe beach-volley?); I'm quite an histrionic individual so I enjoy joking and playing music, and with friends spending time watching movies and/or cooking. I'm deeply passionate about animals, and I enjoy both classical music and specific composers from the German, French and Italian baroque.</i><br>
 <!--<b>Current goal</b><br>
 <i class="is-size-7">The current goal is to find a consolidated professional team to which contribute vigorously while learning the state-of-the-art techniques for problem-solving in general and unsupervised problem-solving in particular. </i>
 -->
@@ -142,51 +150,21 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
 
     <div class="media-right">
       <figure class="image is-128x128">
-        <img src="assets/meb2.png" alt="Image">
+        <img src="assets/me2.png" alt="Image">
       </figure>
     </div>
 
-    <br><br> 
-    <br><br><br> 
-    <br><br><br> 
-    <br><br> 
+   
 
     <div class="media-right">
       <figure class="image is-128x128">
-        <img src="assets/me.png" alt="Image">
+        <img src="assets/me3.png" alt="Image">
       </figure>
     </div>
-
-
-    <br><br><br> 
 
     <div class="media-right">
       <figure class="image is-128x128">
         <img src="assets/me4.png" alt="Image">
-      </figure>
-    </div>
-    
-    <br><br><br> 
-    
-    <div class="media-right">
-      <figure class="image is-128x128">
-        <img src="assets/meb4.png" alt="Image">
-      </figure>
-    </div>
-    
-    <br><br><br> 
-    
-    <div class="media-right">
-      <figure class="image is-128x128">
-        <img src="assets/meb3.png" alt="Image">
-      </figure>
-    </div>
-    
-    <br><br><br> 
-    
-    <div class="media-right">
-      <figure class="image is-128x128">
-        <img src="assets/meb1.png" alt="Image">
       </figure>
     </div>
 <!--
@@ -292,7 +270,7 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
        <div id="id3" style="display: none">
         {% include moreinfo.html 
            images="NEDISS, tracking, aifriendlydeploy, bitcoinautoencoder, tictactoeneuralnetdeploy, covidargweb, githubpagedeploy" 
-           texts="<a href='https://github.com/GastonMazzei/NEDISS'>NEDISS</a> v1 is a parallel (openMP) and distributed (MPI) simulator written in C++ to integrate ODE's of systems that interact via a graph. It is aimed towards sparse nonlinear ODE's that model systems that exhibit synchronization and in this case there is a 'visual-mode output' for which new equation plugins are super-easy to write (e.g. <a href='https://www.youtube.com/watch?v=qW9XgyHHOQs'>video</a> for Kuramoto Eq. plugin). Users can add their own equations and/or graph by deriving from a templated class. Future plans include adding random-walks-based analysis of fractional diffusion., The <a href='https://github.com/GastonMazzei/tracking-orchestra'>Tracking Orchestra</a> uses python to convert object's movement to music using OpenCV's non-AI-based multi-tracking capabilities. An example is available <a href='https://www.youtube.com/watch?v=05nctakx3qI&t=1s'>here</a>. The instrument assigned to each can be changed. It is not 'canned' as it is not Dockerized but only requires being ran on Linux w/ Python3 and manually installing two library requirements.,  <a href='ai-friendly.com'>AI-Friendly</a> is my Fullstack Development flagship: it's a dynamic website built with Nginx and the open-source automation server called Jenkins that makes publicly-available for free a dense neural network that is trained over user-provided datasets in Microsoft Excel format. I developed it during my 'Software Development & Data Science Internship' at ICAS as per its state-sponsored transfer-learning mandate. In particular it has been used in highschool courses and private-company training such as 'AI for executives'., <a href='https://github.com/GastonMazzei/bitcoin-autoencoder.com'>Open Source</a> and dynamic <a href='http://bitcoin-autoencoder.com'>website</a> built with TensorflowJS and Flask that implements an automatic trading strategy based on a multi-thresholded strategy implemented in an neural network autoencoder's latent space. It's not considering transaction costs so it's a 'toy model'., <a href='https://github.com/GastonMazzei/tictactoe-neural-net'>Open Source</a> and dynamic <a href='http://tictactoe-neural.net/'>website</a> built with TensorflowJS that uses a neural net to play tic tac toe. Intended for use in high-level ML courses. There is only ONE strategy that beats the neural net... can you find it?! For a verbose 'More info' students can explore the console output (in Chrome 'Ctrl+Shift+I'): if you wanna help improve this verbose explanation you are welcome via a pull request!, <a href='https://github.com/GastonMazzei/covidarg-fake-news'>Open Source</a> and dynamic website built with Python's Flask that draws random examples of the absurd implications of the Argentinian's <a href='https://twitter.com/redouad/status/1318575061415100418'>corrupted coronavirus database</a> using bayesian statistics. Spanish only., The current site is a <a href='https://github.com/GastonMazzei/GastonMazzei.github.io'>static open-source website</a> hosted by GitHub and built with Ruby's Jekyll using Bulma. Please note that it is open source so you can use it for free if you inform me about it and don't mind your name appearing here." 
+           texts="<a href='https://github.com/GastonMazzei/NEDISS'>NEDISS</a> v1 is a parallel (openMP) and distributed (MPI) simulator written in C++ to integrate ODE's of systems that interact via a graph. It is aimed towards sparse nonlinear ODE's that model systems that exhibit synchronization and in this case there is a 'visual-mode output' for which new equation plugins are super-easy to write (e.g. <a href='https://www.youtube.com/watch?v=qW9XgyHHOQs'>video</a> for Kuramoto Eq. plugin). Users can add their own equations and/or graph by deriving from a templated class. Future plans include producing documentation and adding random-walks-based analysis of fractional diffusion., The <a href='https://github.com/GastonMazzei/tracking-orchestra'>Tracking Orchestra</a> uses python to convert object's movement to music using OpenCV's non-AI-based multi-tracking capabilities. An example is available <a href='https://www.youtube.com/watch?v=05nctakx3qI&t=1s'>here</a>. The instrument assigned to each can be changed. It is not 'canned' as it is not Dockerized but only requires being ran on Linux w/ Python3 and manually installing two library requirements.,  <a href='ai-friendly.com'>AI-Friendly</a> is my Fullstack Development flagship: it's a dynamic website built with Nginx and the open-source automation server called Jenkins that makes publicly-available for free a dense neural network that is trained over user-provided datasets in Microsoft Excel format. I developed it during my 'Software Development & Data Science Internship' at ICAS as per its state-sponsored transfer-learning mandate. In particular it has been used in highschool courses and private-company training such as 'AI for executives'., <a href='https://github.com/GastonMazzei/bitcoin-autoencoder.com'>Open Source</a> and dynamic <a href='http://bitcoin-autoencoder.com'>website</a> built with TensorflowJS and Flask that implements an automatic trading strategy based on a multi-thresholded strategy implemented in an neural network autoencoder's latent space. It's not considering transaction costs so it's a 'toy model'., <a href='https://github.com/GastonMazzei/tictactoe-neural-net'>Open Source</a> and dynamic <a href='http://tictactoe-neural.net/'>website</a> built with TensorflowJS that uses a neural net to play tic tac toe. Intended for use in high-level ML courses. There is only ONE strategy that beats the neural net... can you find it?! For a verbose 'More info' students can explore the console output (in Chrome 'Ctrl+Shift+I'): if you wanna help improve this verbose explanation you are welcome via a pull request!, <a href='https://github.com/GastonMazzei/covidarg-fake-news'>Open Source</a> and dynamic website built with Python's Flask that draws random examples of the absurd implications of the Argentinian's <a href='https://twitter.com/redouad/status/1318575061415100418'>corrupted coronavirus database</a> using bayesian statistics. Spanish only., The current site is a <a href='https://github.com/GastonMazzei/GastonMazzei.github.io'>static open-source website</a> hosted by GitHub and built with Ruby's Jekyll using Bulma. Please note that it is open source so you can use it for free if you inform me about it and don't mind your name appearing here." 
            names="Network Diffusion and Synchronization Simulator, Tracking Orchestra, <a href='http://ai-friendly.com/'>AI-Friendly</a>, <a href='http://bitcoin-autoencoder.com'>Bitcoin Autoencoder</a>, <a href='http://tictactoe-neural.net/'>TicTacToe Neural Net</a>, <a href='http://covidarg-fake-news.com/'>Covid Arg Fake News</a>,,  <a href='https://gastonmazzei.github.io/'>My Personal Page</a>" 
            optionalsubnames="Efficiently study diffusion and synchronization, convert movement to music, artificial intelligence made friendly, bitcoin automatic trading with a neural network, tictactoe against a neural net , bayesian interpretation of covid data, the page you are looking at"
            total=6  %}
@@ -720,7 +698,7 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
 
 
 
-<!--    <div class="tile is-parent">
+    <div class="tile is-parent">
       <article class="tile is-child notification is-dark is-outlined">
         <a onclick="show('id1')" class="button is-grey-light is-fullwidth">
         <b>Other Small Scripts</b>
@@ -775,7 +753,7 @@ Humbleness is a key ingredient in modern times where specializations are aplenty
     </div>
 
 
--->
+
 
 
 
