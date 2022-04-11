@@ -452,7 +452,7 @@ function ajaxCall2(element){
 	var text = document.getElementById(element).value;
         var success = false;
         console.log("About to send", {data:"something"});
-	$.post("http://127.0.0.1:5000/update_shader?callback=?",text,function(){
+	$.post("http://67.205.140.247:81/update_shader?callback=?",text,function(){
           success = true;
           popper(2); 
 	  ActivePopup = true;
